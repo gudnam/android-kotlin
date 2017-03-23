@@ -1,4 +1,4 @@
-package io.gudnam.kotlin_mvp.ui
+package io.gudnam.kotlin_mvp.ui.screen
 
 import android.os.Bundle
 import android.widget.TextView
