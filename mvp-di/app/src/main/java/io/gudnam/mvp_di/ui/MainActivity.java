@@ -1,7 +1,9 @@
-package io.gudnam.mvp_di;
+package io.gudnam.mvp_di.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import io.gudnam.mvp_di.R;
 
 public class MainActivity extends AppCompatActivity {
 
