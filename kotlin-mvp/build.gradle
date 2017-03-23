@@ -17,7 +17,6 @@ allprojects {
     }
 
     ext {
-        daggerVersion = "2.6"
     }
 }
 
