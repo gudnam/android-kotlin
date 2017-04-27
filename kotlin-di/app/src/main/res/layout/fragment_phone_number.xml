@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="29dp"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp">
+
+        <LinearLayout android:id="@+id/ll_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="240">
+                <EditText android:id="@+id/et_phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:numeric="integer"
+                    android:imeOptions="actionDone"
+                    android:textSize="16sp"
+                    android:textColor="@color/charcoal_grey"
+                    android:textColorHint="@color/cloudy_blue"
+                    android:hint="핸드폰 번호"
+                    android:background="@android:color/transparent"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@id/et_phone_number"
+                    android:background="@color/pale_grey"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="102"/>
+        </LinearLayout>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_phone_number"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn_start_default"
+            android:onClick="onNextButtonClicked"/>
+    </RelativeLayout>
+
+</FrameLayout>

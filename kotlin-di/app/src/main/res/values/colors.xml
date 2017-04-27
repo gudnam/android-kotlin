@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <item name="charcoal_grey" type="color">#3d4953</item>
+    <item name="cloudy_blue" type="color">#bcc3d1</item>
+    <item name="pale_grey" type="color">#ebeffa</item>
+    <item name="periwinkle" type="color">#767bfe</item>
+    <item name="cool_grey_two" type="color">#8a97a2</item>
+    <item name="very_light_blue" type="color">#fbfcff</item>
+    <item name="white" type="color">#ffffff</item>
+
+</resources>
