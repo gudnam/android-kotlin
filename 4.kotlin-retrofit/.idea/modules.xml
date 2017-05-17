@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/3.kotlin-di.iml" filepath="$PROJECT_DIR$/3.kotlin-di.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4.kotlin-retrofit.iml" filepath="$PROJECT_DIR$/4.kotlin-retrofit.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
